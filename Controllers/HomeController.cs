@@ -4,8 +4,18 @@ using System.Diagnostics;
 
 namespace BulkyWeb.Controllers
 {
+
+	/// <summary>
+	/// 
+	/// </summary>
+	/// <param name="logger"></param>
 	public class HomeController(ILogger<HomeController> logger) : Controller
 	{
+
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <returns></returns>
 		public IActionResult Index()
 		{
 			return View();
